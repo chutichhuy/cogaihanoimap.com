@@ -1,0 +1,129 @@
+body {
+    background-color: #FAFAFA;
+}
+
+.btn.trial {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    font-size: 1.6em;
+    padding: 25px;
+}
+
+.content {
+    margin: 50px auto;
+}
+
+.cover-col {
+    text-margin: right;
+}
+
+.cover-img {
+    display: block;
+    width: 60%;
+    padding: 50px;
+    margin: 0px auto;
+}
+
+.cover-img img {
+    width: 100%;
+}
+
+.novel-title {
+    font-size: 4.8em;
+    font-family: 'Itim', cursive;
+    margin-top: 0px;
+    -ms-transform: rotate(-3deg); /* IE 9 */
+    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+    transform: rotate(-3deg);
+    margin-bottom: 25px;
+}
+
+.novel-title span {
+    background-color: #E20000;
+    color: white;
+    margin: 0px 15px;
+    line-height: 1.4em;
+}
+
+.novel-title span strong {
+    font-weight: 800;
+    font-size: 1.6em;
+    color: #555;
+}
+
+.logline {
+    font-size: 1.6em;
+    padding: 15px 0px;
+}
+
+.logline span {
+    margin: 0px 30px;
+    /*background: #FFFF95;*/
+    background-color: #EEE;
+}
+
+/* Fallback styles */
+.book {
+  display: inline-block;
+  box-shadow: 5px 5px 20px #333;
+  margin: 10px;
+}
+
+.book img { vertical-align: middle; }
+
+/*
+ *  In order for this to work, you must use Modernizer
+ *  to detect 3D transform browser support. This will add
+ *  a "csstransforms3d" class to the HTML element.
+ *
+ *  Visit http://modernizr.com/ for installation instructions
+ */
+
+.csstransforms3d  .books {
+  -moz-perspective: 100px;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+}
+
+.csstransforms3d  .book {
+  position: relative;
+  -moz-perspective: 100px;
+  -moz-transform: rotateY(-3deg);
+  -webkit-transform: perspective(100) rotateY(-3deg);
+  outline: 1px solid transparent; /* Helps smooth jagged edges in Firefox */
+  box-shadow: none;
+  margin: 0;
+}
+
+.csstransforms3d  .book img {
+  position: relative;
+  max-width: 100%;
+}
+
+.csstransforms3d  .book:before,
+.csstransforms3d  .book:after {
+  position: absolute;
+  top: 2%;
+  height: 96%;
+  content: ' ';
+  z-index: -1;
+}
+
+.csstransforms3d  .book:before {
+  width: 100%;
+  left: 7.5%;
+  background-color: #E20000;
+  box-shadow: 5px 5px 20px #CCC;
+}
+
+.csstransforms3d  .book:after {
+  width: 5%;
+  left: 100%;
+  background-color: #EFEFEF;
+  box-shadow: inset 0px 0px 5px #aaa;
+  -moz-transform: rotateY(20deg);
+  -webkit-transform: perspective(100) rotateY(20deg);
+}
+
+
