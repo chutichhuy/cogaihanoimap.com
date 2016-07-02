@@ -1,13 +1,17 @@
 body {
-    background-color: #FAFAFA;
+    color: #000;
 }
 
 .btn.trial {
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     font-size: 1.6em;
     padding: 25px;
+}
+
+.btn.tiki {
+    font-size: 1.6em;
+    padding: 25px;
+    background-color: #00B7F1;
+    color: white;
 }
 
 .content {
@@ -20,7 +24,7 @@ body {
 
 .cover-img {
     display: block;
-    width: 60%;
+    width: 75%;
     padding: 50px;
     margin: 0px auto;
 }
@@ -37,10 +41,15 @@ body {
     -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
     transform: rotate(-3deg);
     margin-bottom: 25px;
+    background: url("../images/tittle2.jpg");
+    background-size: 100%;
+    text-indent: -9999;
+    width: 480px;
+    height: 321px;
 }
 
 .novel-title span {
-    background-color: #E20000;
+    background-color: #8A1B14;
     color: white;
     margin: 0px 15px;
     line-height: 1.4em;
@@ -49,7 +58,7 @@ body {
 .novel-title span strong {
     font-weight: 800;
     font-size: 1.6em;
-    color: #555;
+    color: #000;
 }
 
 .logline {
@@ -59,8 +68,145 @@ body {
 
 .logline span {
     margin: 0px 30px;
-    /*background: #FFFF95;*/
-    background-color: #EEE;
+    color: black;
+}
+
+/*tesimotonal */
+.testmi {
+    background-color: #8A1B14;
+    color: #FFF;
+    font-size: 1.6em;
+    padding: 50px;
+}
+
+.testmi h2 {
+    font-size: 3.2em;
+    margin-bottom: 50px;
+    color: black;
+    font-family: 'Itim', cursive;
+    -ms-transform: rotate(3deg); /* IE 9 */
+    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+    transform: rotate(3deg);
+}
+
+.testmi h2 span {
+    background-color: #FFF;
+    margin-left: 50px;
+}
+
+.testmi ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.testmi ul li {
+    margin-bottom: 30px;
+    padding: 0px 15px;
+}
+
+.testmi ul li .statement span {
+    background-color: black;
+    color: white;
+}
+
+.testmi ul li .person span {
+    background-color: white;
+    color: black;
+}
+
+.testmi .bilbo .statement, .testmi .bro .statement {
+    font-size: 2em;
+}
+
+/* autho */
+.author {
+    font-size: 1.6em;
+    padding: 50px;
+}
+
+.author h2 {
+    font-size: 3.2em;
+    margin-bottom: 50px;
+    font-family: 'Itim', cursive;
+    -ms-transform: rotate(-3deg); /* IE 9 */
+    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+    transform: rotate(-3deg);
+}
+
+.author h2 span {
+    color: black;
+    margin-left: 50px;
+}
+
+.author .description span {
+    background-color: white;
+    color: #000;
+    margin: 0px 25px;
+    line-height: 1.5em;
+}
+
+.author .description span.name {
+    background-color: black;
+    color: white;
+    font-size: 1.4em;
+}
+.author img {
+    border: 10px solid #8A1B14;
+}
+.author .fact strong {
+    background-color: #8A1B14;
+    color: white;
+}
+/* footer */
+.footer {
+    font-size: 1.6em;
+    padding: 100px 0px 30 0px;
+}
+
+.footer .phoenix {
+    text-align: right;
+}
+
+.footer .phoenix img {
+    width: 100px;
+}
+
+/* trial */
+.trial-title {
+    padding-left: 45px;
+    margin-bottom: 35px;
+}
+.trial-title span {
+    color: #8A1B14;
+    font-size: 3.2em;
+}
+
+.trial-content {
+    font-size: 1.6em;
+}
+
+.trial-content p:first-letter {
+    font-size: 1.8em;
+}
+
+.trial-menu {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2em;
+}
+
+.trial a {
+    color: #8A1B14;
+}
+
+.trial-backhome {
+    font-size: 1.2em;
+}
+
+.trial {
+    padding: 30px 0px;
 }
 
 /* Fallback styles */
@@ -125,5 +271,3 @@ body {
   -moz-transform: rotateY(20deg);
   -webkit-transform: perspective(100) rotateY(20deg);
 }
-
-
