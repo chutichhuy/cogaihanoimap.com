@@ -184,10 +184,6 @@ body {
 }
 
 .trial-content {
-    font-size: 1.6em;
-}
-
-.trial-content p:first-letter {
     font-size: 1.8em;
 }
 
