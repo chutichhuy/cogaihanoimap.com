@@ -173,6 +173,8 @@ body {
 }
 
 /* trial */
+.trial {
+}
 .trial-title {
     font-family: 'Itim', cursive;
     padding-left: 45px;
@@ -184,7 +186,8 @@ body {
 }
 
 .trial-content {
-    font-size: 1.8em;
+    font-size: 1.6em;
+    padding: 15px;
 }
 
 .trial-menu {
